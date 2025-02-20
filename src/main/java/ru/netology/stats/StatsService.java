@@ -19,7 +19,7 @@ public class StatsService {
     }
 
     // 3 задача
-    public long maxSales (long[] sales){
+    public int maxSales (long[] sales){
         int maxMonth = 0;
 
         for (int i = 0; i < sales.length; i++){
@@ -33,7 +33,7 @@ public class StatsService {
     }
 
     // 4 задача
-    public long minSales (long[] sales){
+    public int minSales (long[] sales){
         int minMonth = 0;
 
         for (int i = 0; i < sales.length; i++){
@@ -47,7 +47,7 @@ public class StatsService {
     }
 
     // 5 задача
-    public long lessAwgSales (long[] sales) {
+    public int lessAwgSales (long[] sales) {
         long awg = summSales(sales) / sales.length;
         int months = 0;
 
@@ -60,7 +60,7 @@ public class StatsService {
     }
 
     // 6 задача
-    public long aboveAwgSales (long[] sales) {
+    public int aboveAwgSales (long[] sales) {
         long awg = summSales(sales) / sales.length;
         int months = 0;
 
